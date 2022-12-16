@@ -1,0 +1,72 @@
+/* Write your CSS code in this file */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    background: antiquewhite;
+}
+
+#container{
+    position: absolute;
+    width: 80%;
+    min-width: 600px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgb(224, 87, 87);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 50px;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color:rgb(100, 13, 13);
+    padding-top: 10px;
+    font-size: 55px;
+}
+
+#input{
+    width: fit-content;
+    height: 50px;
+    color: black;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+#btn{
+    margin: auto;
+    padding: 10px;
+
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#btn2{
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin: 5px;
+}
